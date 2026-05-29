@@ -62,6 +62,8 @@ The script automatically collects:
 
 The workflow checks:
 
+and identifies views without assigned templates.
+
 ```python
 import clr
 
@@ -133,8 +135,6 @@ OUT = [
     results
 ]
 ```
-
-and identifies views without assigned templates.
 
 ---
 
